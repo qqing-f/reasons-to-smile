@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="stylesheet.css"> <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="contact.css">
+
+<div class="head">
+    <img src="images/logo.png" style="width:53px;height:50px;"> 
+    &nbsp;Reasons to Smile!
+</div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="jokes.html">Jokes</a>
+    <a href="paint.html">Paint</a>
+    <a href="pictures.html">Pictures</a>
+    <a href="mindfulness.html">Mindfulness</a>
+    <a href="about.html">About Us!!</a>
+</div>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>We want to hear from you! Please fill out the following form to send us a message.</p>
+        <!-- Add onsubmit event to the form -->
+        <form onsubmit="return showPopup();">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="subject" placeholder="Topic of this message" required>
+            <textarea name="message" placeholder="Your message here..." rows="6" required></textarea>
+            
+            <!-- Submit button -->
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+<!-- pop up -->
+    <script> 
+        function showPopup() {
+            alert('Your email has been sent, thank you.'); 
+            return false;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasons to Smile!</title>
+    <link rel="stylesheet" href="stylesheet.css"> <!-- link to ext. stylesheet -->
+    <style>
+        .latest-news h2 {
+            font-size: 28px;
+            margin: 4px;
+            font-family: Roboto;
+            margin-left: 20px;
+         }
+        .header {
+            font-family:Single Day;
+            margin: 20px;
+            margin-left: 40px; 
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            column-gap: 30px; 
+            row-gap: 5px; 
+            padding-bottom: 30px;
+            padding-right: 30px;
+            padding-left: 50px;
+            font-family: Roboto;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+       .news-item{
+        display: flexbox;
+        justify-content: space-between;
+        justify-items: flex-start;
+        margin:fixed;
+        padding:fixed;
+       }
+        .news-item img{
+            width: 430px;
+            height: 250px;
+            /* style="width: 300px; height: 300px; object-fit: cover;"; */
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .news-item h3 {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Rokkitt;
+            padding: 0px;
+            margin: 3px;
+            line-height: 15px;
+                }
+        .news-item p {
+            font-size: 10px;
+            padding: 0px;
+            margin-top: 7px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="head">
+    <img src="images/logo.png" style="width:53px;height:50px;">
+    &nbsp;Reasons to Smile!
+</div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="news.html" class="active">News</a>
+    <a href="jokes.html">Jokes</a>
+    <a href="paint.html">Paint</a>
+    <a href="pictures.html">Pictures</a>
+    <a href="mindfulness.html">Mindfulness</a>
+    <a href="about.html">About Us!!</a>
+</div>
+    <h2 class="header">Latest Good News</h2>
+    <div class="news-grid">
+        <div class="news-item">
+            <img src="images/dog.avif" alt="News Image 1">
+            <h3>This regional primary school notices positive changes after adopting a wellbeing dog</h3>
+            <p>Hugo the wellbeing dog brings a range of benefits to this South Australian public school, but the principal warns that research is needed before bringing a pet into the classroom.</p>
+        </div>
+        <div class="news-item">
+            <img src="images/mars.avif" alt="News Image 2">
+            <h3>On a remote island in the Southern Ocean, this endangered marsupial is making its comeback</h3>
+            <p> As few as 120 Gilbert's potoroos remain in the wild, so when two new animals were found on Middle Island off the WA coast, it was a cause for celebration.</p>
+        </div>
+        <div class="news-item">
+            <img src="images/mans.avif" alt="News Image 3">
+            <h3>Motivation not a problem as 80yo tackles first marathon in decades to celebrate birthday</h3>
+            <p>The Sydney Marathon will be a jog down memory lane for this 80-year-old retired GP, who grew up in public housing in Bondi.</p>
+        </div>
+        <div class="news-item">
+            <img src="images/dog2.avif" alt="News Image 4">
+            <h3> 'Love at first sight': Atticus the rescue dog finds his forever home</h3>
+            <p>
+                A five-year-old staghound who was found starving and abandoned on a pile of rubbish has found his "forever home" with a semi-retired couple.</p>
+        </div>
+        <div class="news-item">
+            <img src="images/ppl.jpeg" alt="News Image 5">
+            <h3>How do you make friends when you're new in town and don't like sport?</h3>
+            <p>
+                The question of how to make friends in a regional town is often answered with joining a local sports club. But in South Australia's Riverland, a group is finding other ways to connect socially.</p>
+        </div>
+        <div class="news-item">
+            <img src="images/meteor.avif" alt="News Image 6">
+            <h3>
+                After meeting by chance, star-crossed snappers capture same meteor at same moment
+                </h3>
+            <p>Doug Ingram and Scott McAleer were perfect strangers when they ran into each other on a NSW beach last week. The odds are astronomical, but that same night they both found themselves in the right place at the right time.</p>
+        </div>
+    </div>
+</body>
+</html>

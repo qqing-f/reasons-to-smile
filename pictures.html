@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="stylesheet.css"> <!-- link to ext. stylesheet -->
+    <style>
+        .imgs{
+            margin: 20px;
+            margin: 20px auto;
+            align-items: center; 
+            gap: 30px; /* Space between images */
+            max-width: 500px; 
+        }
+            img{
+                max-width: 100%; 
+                height: auto; 
+                border-radius: 10px; 
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+                margin-bottom: 0px;
+                margin-top: 20px;
+                }
+            p {
+                font-size: 20px; 
+                margin-top: 0px; /* Space between image and caption */
+                color: #333; 
+                font-family: Outfit;
+                text-align: center; 
+            }
+        .top-btn {
+        margin: 20px auto;
+        display: block;
+        padding: 5px 10px;
+        background-color: #dee9ea;  
+        color: #038979;
+        border:none;
+        border-radius: 5px; 
+        font-family: Outfit;
+        cursor: pointer;
+        font-size: 13px; 
+        }
+
+        .link {
+            font-size: 14px; 
+            color: #007BFF; 
+            text-decoration: none; /* Remove underline */
+            font-family: Roboto;
+        }
+
+
+        
+    </style>
+    <div class="head">
+        <img src="images/logo.png" style="width:53px;height:50px;"> 
+        &nbsp;Reasons to Smile!
+    </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="jokes.html">Jokes</a>
+        <a href="paint.html">Paint</a>
+        <a href="pictures.html" class="active">Pictures</a>
+        <a href="mindfulness.html">Mindfulness</a>
+        <a href="about.html">About Us!!</a>
+    </div>
+
+</head>
+
+<body>
+    <div class="imgs"> 
+        <img src="images/pics/grandpa.jpg">
+        <p>93 And Still In Love      </p>
+        <img src="images/pics/dino.jpeg">
+        <p>Emotional support brachiosaurus
+            "Traveling for work this week. Pleasant surprise from my kiddo when I opened my suitcase at the hotel.</p>
+        <img src="images/pics/sunflr.jpeg">
+        <p>Neighbor's sunflower has a comically small bloom for it's massive size</p>
+        <img src="images/pics/crowcat.jpeg">
+        <p>Nosy neighbour</p>
+        <img src="images/pics/4dogs.jpeg">
+        <p>My girls found another set of twins to hang out with</p>
+        <img src="images/pics/frogs.jpg">
+        <p>"I know not everyone is into amphibians but I found them being this excited for a treat to be super cute."</p>
+        <img src="images/pics/manycats.webp">
+        <p>These 4 mysterious cats show up every night at the exact same hour</p>
+        <img src="images/pics/ratpasta.jpeg">
+        <p>Ratatouille</p>
+        <img src="images/pics/stuart.webp">
+        <p>Stuart Little in real life</p>
+        <img src="images/pics/husky.jpeg">
+        <p>"Picture this morning of my huskie he was staring hard at my camera, he has a long nose"</p>
+        <img src="images/pics/chonk.jpeg">
+        <p>King Chonk Harold</p>
+        <img src="images/pics/alpaca.jpg">
+        <p>Distinguised gentleman</p>
+        <img src="images/pics/cathead.jpeg">
+        <p>No, it's not a cat head growing out of the ground.<br> ....<br> He's resting on a step.</p>
+        <img src="images/pics/cat1.webp">
+        <p>The first thing you see when you wake up</p>
+        <img src="images/pics/maths.webp">
+        <p>My daughter can't be bothered with these questions I guess</p>
+        <img src="images/pics/catf.jpg">
+        <p>Cat got into the flour</p>
+        <img src="images/pics/coat.jpeg">
+        <p>"I asked one of my students who is very poor to give me his torn coat so I could bring it home for my daughter to sew. He came to class and showed me that he found this in the pocket."</p>
+        <img src="images/pics/delivery.jpg">
+        <p>Best Amazon delivery photo</p>
+        <img src="images/pics/efgh.jpeg">
+        <p></p>
+        <img src="images/pics/catstalk.jpeg">
+        <p>I think my pup is being stalked...</p>
+        <img src="images/pics/wheelie.jpeg">
+        <p></p>
+        <img src="images/pics/dog3.jpg">
+        <p></p>
+        <img src="images/pics/kits.jpg">
+        <p>The one sleeping on its back</p>
+    </div>
+    <button class="top-btn" onclick="scrollToTop()">Go to Top</button>
+    <a href="https://www.sunnyskyz.com/happy-pictures" target="_blank">Want more? Visit sunny skyz.</a>
+    
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>

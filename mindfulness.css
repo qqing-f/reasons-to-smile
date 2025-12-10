@@ -1,0 +1,17 @@
+.inst{
+    margin:30px;
+    font-family: Roboto;
+    background-color: rgb(255, 238, 215);
+    padding: 10px;
+    border-radius: 8px;
+}
+.inst h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.music{
+    margin: 40px;
+    font-family: outfit;
+
+}

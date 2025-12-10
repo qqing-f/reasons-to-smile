@@ -1,0 +1,62 @@
+@font-face {
+font-family: Single Day;
+src: url(fonts/Single_Day/SingleDay-Regular.ttf);
+}
+@font-face {
+font-family: Chilanka;
+src: url(fonts/Chilanka/Chilanka-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit/static/Outfit-Regular.ttf);
+    }
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    }
+@font-face {
+    font-family: Rokkitt;
+    src: url(fonts/Rokkitt/Rokkitt-VariableFont_wght.ttf);
+    }
+body{
+padding: 0px;
+margin: 0px;
+background-color:#fffdf3;  
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #C8D1D1;
+padding: 9px;
+padding-left: 50px;
+padding-right: 50px;
+font-size:larger;
+font-family: Single Day;
+}
+.navbar a, .navbar span {
+text-decoration: none;
+color: inherit;
+padding: 8px 16px;
+background-color: #C8D1D1;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+.navbar a:hover, .navbar span:hover {
+background-color: #b6d3d3;
+}
+.navbar .active {
+color: #ffffff; 
+font-weight: bold;
+text-decoration:underline;
+}
+
+.head{
+align-items:center;
+font-size: 40px;
+margin: 5px;
+display: flex;
+font-family: Single Day
+
+}
+
